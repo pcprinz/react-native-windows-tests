@@ -44,6 +44,16 @@
         "resolved": "10.0.22621.756",
         "contentHash": "7ZL2sFSioYm1Ry067Kw1hg0SCcW5kuVezC2SwjGbcPE61Nn+gTbH86T73G3LcEOVj0S3IZzNuE/29gZvOLS7VA=="
       },
+      "rnsvg": {
+        "type": "Project",
+        "dependencies": {
+          "Microsoft.ReactNative": "[0.75.9-Fabric, )",
+          "Microsoft.ReactNative.Cxx": "[0.75.9-Fabric, )",
+          "Microsoft.VCRTForwarders.140": "[1.0.2-rc, )",
+          "Microsoft.WindowsAppSDK": "[1.5.240227000, )",
+          "boost": "[1.83.0, )"
+        }
+      },
       "rnwtests": {
         "type": "Project",
         "dependencies": {
@@ -52,6 +62,7 @@
           "Microsoft.ReactNative.Cxx": "[0.75.9-Fabric, )",
           "Microsoft.VCRTForwarders.140": "[1.0.2-rc, )",
           "Microsoft.WindowsAppSDK": "[1.5.240227000, )",
+          "RNSVG": "[1.0.0, )",
           "boost": "[1.83.0, )"
         }
       }
